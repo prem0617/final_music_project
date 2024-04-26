@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+
+body,html{
+    width: 100%;;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Header container started */
+
+/* header flex */
+.navbar{
+    position: relative;
+    /* background-color: powderblue; */
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-left ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    list-style-type: none;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+.header-left ul a{
+    text-decoration: none;
+}
+.navbar .logo
+{
+    position: absolute;
+}
+
+.navbar .signup{
+    background-color: black;
+    padding: 15px;
+    border-radius: 2px;
+    position: absolute;
+    right: 50px;
+}
+
+.navbar .signup a{
+    color: white;
+    text-decoration: none;
+}
+/* IMAGE */
+
+.image_container{
+    display: flex;
+    justify-content: center;
+}
+
+.image_container .image{
+    height: 500px;
+    width: 80%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+}
+
+
+/* discover_container */
+
+.discover_container{
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    align-items: center;
+    /* background-color: powderblue; */
+}
+
+.discover_container .discover_text p{
+    font-size: 35px;  
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.discover_container .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: black; */
+    height: 5rem;
+}
+
+.discover_container .button a{
+    text-decoration: none;
+}
+
+.discover_container .para{
+    font-size: 20px;
+}
+
+
+.discover_container .button .signup{
+    background-color: black;
+    padding: 15px;
+    /* border-radius: 5px; */
+    font-size: 17px;
+    border: 1px solid black;
+    color: white;
+}
+
+.discover_container .button .explore{
+    background-color: white;
+    padding: 15px;
+    margin-left: 5px;
+    /* border-radius: 5px; */
+    border: 1px solid black;
+    font-size: 17px;
+    color: black;
+}
+
+
+
+.welcome{
+    font-size: 200px;
+}

@@ -1,0 +1,37 @@
+@media (max-width: 950px) {
+  .header-left ul a {
+    width: 200px;
+    padding: 8px 50px 8px 0px;
+  }
+  .header-left ul {
+    top: 0px;
+  }
+  .header-right .hamburger {
+    display: block !important;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+  }
+
+  .navbar .home {
+    margin: 0;
+    position: absolute;
+    top: -500%;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(130, 104, 104, 0.4);
+    /* padding: 30px; */
+    transition: 0.3s;
+    /* text-align: center; */
+    z-index: 2;
+  }
+
+  .header-left nav.active {
+    top: 55px;
+    height: 300px;
+  }
+  .header-left nav ul {
+    display: block !important;
+  }
+}
